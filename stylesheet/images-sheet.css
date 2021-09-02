@@ -5,14 +5,14 @@
   background-image: url(images/Margherit.JPG);
 }
 .menu-image3 {
-  background-image: url("../images/peppy-paneer.JPG");
+  background-image: url(./images/peppy-paneer.jpg);
 }
 .menu-image4 {
-  background-image: url("../images/farmhouse.JPG");
+  background-image: url("../images/farmhouse.jpg");
 }
 .menu-image5 {
-  background-image: url("/images/deluxe-veggie.JPG");
+  background-image: url("/images/deluxe-veggie.jpg");
 }
 .menu-image6 {
-  background-image: url("./images/double-cheese-margherita.JPG");
+  background-image: url("./images/double-cheese-margherita.jpg");
 }
