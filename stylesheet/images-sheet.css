@@ -1,18 +1,18 @@
 .menu-image1 {
-  background-image: url("images/Margherit.JPG");
+  background-image: url(/images/Margherit.jpg);
 }
 .menu-image2 {
-  background-image: url(images/Margherit.JPG);
+  background-image: url("/images/Margherit.jpg");
 }
 .menu-image3 {
-  background-image: url(./images/peppy-paneer.jpg);
+  background-image: url("./images/peppy-paneer.jpg");
 }
 .menu-image4 {
-  background-image: url("../images/farmhouse.jpg");
+  background-image: url(./images/farmhouse.jpg);
 }
 .menu-image5 {
-  background-image: url("/images/deluxe-veggie.jpg");
+  background-image: url(./images/deluxe-veggie.jpg);
 }
 .menu-image6 {
-  background-image: url("./images/double-cheese-margherita.jpg");
+  background-image: url(./images/double-cheese-margherita.jpg);
 }
