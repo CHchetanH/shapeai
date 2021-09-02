@@ -2,10 +2,10 @@
   background-image: url(/images/margherit.jpg);
 }
 .menu-image2 {
-  background-image: url(./images/mexicangreenwave);
+  background-image: url(./images/mexicangreenwave.jpg);
 }
 .menu-image3 {
-  background-image: url(/images/peppypaneer.jpg);
+  background-image: url(../images/peppypaneer.jpg);
 }
 .menu-image4 {
   background-image: url(./images/farmhouse.jpg);
@@ -14,5 +14,5 @@
   background-image: url(./images/deluxeveggie.jpg);
 }
 .menu-image6 {
-  background-image: url(./images/doublecheesemargherita.jpg);
+  background-image: url(../images/doublecheesemargherita.jpg);
 }
