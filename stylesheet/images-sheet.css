@@ -1,0 +1,18 @@
+.menu-image1 {
+  background-image: url("images/Margherit.JPG");
+}
+.menu-image2 {
+  background-image: url(images/Margherit.JPG);
+}
+.menu-image3 {
+  background-image: url("../images/peppy-paneer.JPG");
+}
+.menu-image4 {
+  background-image: url("../images/farmhouse.JPG");
+}
+.menu-image5 {
+  background-image: url("/images/deluxe-veggie.JPG");
+}
+.menu-image6 {
+  background-image: url("./images/double-cheese-margherita.JPG");
+}

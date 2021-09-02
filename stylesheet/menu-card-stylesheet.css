@@ -1,0 +1,207 @@
+/* import font  */
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster Two", cursive;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--dark-black);
+}
+/* color Variable */
+:root {
+  --black: rgba(17, 15, 18, 255);
+  --dark-black: black;
+  --white: whitesmoke;
+  --orange: rgb(255, 136, 0);
+  --transparent-black: rgba(50, 50, 50, 0.9);
+}
+
+.header-container {
+  border-bottom: 1px solid whitesmoke;
+}
+.brand-logo {
+  color: var(--orange);
+  font-size: 2rem;
+  font-family: "Rampart One", cursive;
+}
+
+/* nav */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+  min-width: 350px;
+
+  padding: 1rem 3rem;
+}
+
+.center-nav {
+  display: none;
+}
+
+.fa-shopping-cart {
+  color: var(--white);
+  font-size: 2rem;
+  transition-duration: 1s;
+}
+
+.fas:hover {
+  font-size: 2.5rem;
+}
+
+/* hero */
+.hero {
+  position: relative;
+}
+.hero-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+.hero-form-container {
+  position: absolute;
+  bottom: 25%;
+  max-width: 100%;
+  height: 220px;
+
+  margin: 2rem;
+  border-radius: 6px;
+
+  background: var(--transparent-black);
+}
+
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  text-decoration: none;
+  color: var(--white);
+}
+/* form para*/
+
+.hero-form-para-p {
+  margin: 1rem;
+  font-size: 1rem;
+}
+
+/* form-radio-flex */
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-radio-flex-item {
+  margin: 0.5rem 1rem;
+}
+
+/* form-text */
+.form-text {
+  position: relative;
+  color: black;
+  width: 90%;
+  margin: 1rem;
+}
+.form-input-text {
+  width: 100%;
+  height: 2.5rem;
+}
+.fa-map-marker-alt {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  bottom: 5px;
+  height: 100%;
+  font-size: 2rem;
+}
+
+input[type="text"]::placeholder {
+  padding-left: 2.5rem;
+  font-size: 1rem;
+}
+/* form-submit button */
+.form-button {
+  background-color: transparent;
+  color: var(--orange);
+  border: none;
+  font-size: 1.5rem;
+  transition-duration: 1s;
+}
+.form-button:hover {
+  border-bottom: 2px solid var(--orange);
+  transform: scale(1.125, 1.125);
+}
+
+/* ################################################ */
+@media screen and (min-width: 765px) {
+  .header-container {
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+  }
+  .nav-container {
+    width: 750px;
+  }
+  .center-nav {
+    display: block;
+  }
+  .center-nav-button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    margin: 0.75rem;
+    transition-duration: 1s;
+    font-size: 1.25rem;
+  }
+  .center-nav-button:hover {
+    border-bottom: 2px solid var(--white);
+    background-color: black;
+    color: white;
+    transform: scale(1.25, 1.25);
+  }
+  .center-nav-button-link {
+    text-decoration: none;
+    color: var(--white);
+  }
+  .fa-search {
+    font-size: 1.25rem;
+  }
+}
+
+/* ################################################ */
+@media screen and (min-width: 1080px) {
+  .header-container {
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+  }
+  .nav-container {
+    width: 1400px;
+    padding: 1rem 3rem;
+  }
+  .brand-logo {
+    font-size: 2.5rem;
+  }
+  .fa-shopping-cart {
+    font-size: 2.25rem;
+  }
+  .center-nav-button {
+    font-size: 1.5rem;
+  }
+}
