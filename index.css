@@ -25,7 +25,7 @@ body {
 .header-container {
   border-bottom: 1px solid whitesmoke;
 }
-.brand-logo {
+.brand-logo a {
   color: var(--orange);
   font-size: 2rem;
   font-family: "Rampart One", cursive;

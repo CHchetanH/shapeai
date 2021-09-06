@@ -1,18 +1,130 @@
 .menu-image1 {
   background-image: url(../images/margherit.jpg);
+  padding: 0%;
+  margin: 0%;
 }
 .menu-image2 {
-  background-image: url(../images/mexicangreenwave.JPG);
+  background-image: url(../images/doublecheesemargherita.JPG);
+  padding: 0%;
+  margin: 0%;
 }
 .menu-image3 {
   background-image: url(../images/peppypaneer.jpg);
+  padding: 0%;
+  margin: 0%;
 }
 .menu-image4 {
   background-image: url(../images/farmhouse.jpg);
+  padding: 0%;
+  margin: 0%;
 }
 .menu-image5 {
   background-image: url(../images/deluxeveggie.jpg);
+  padding: 0%;
+  margin: 0%;
 }
 .menu-image6 {
-  background-image: url(../images/doublecheesemargherita.jpg);
+  background-image: url(../images/mexicangreenwave.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+
+/* non-veg menu images */
+
+.nonveg-menu-image1 {
+  background-image: url(../images/pepperbarbeque.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.nonveg-menu-image2 {
+  background-image: url(../images/./chickengoldendelight.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.nonveg-menu-image3 {
+  background-image: url(../images/nonvegsupreme.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.nonveg-menu-image4 {
+  background-image: url(../images/dominator.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.nonveg-menu-image5 {
+  background-image: url(../images/chickenfiesta.png);
+  padding: 0%;
+  margin: 0%;
+}
+.nonveg-menu-image6 {
+  background-image: url(../images/indianchickentikka.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+
+/* pizza mania and sides and beverages */
+
+.mania-menu-image {
+  background-image: url(../images/pizzamania.png);
+  padding: 0%;
+  margin: 0%;
+}
+.sides-menu-image {
+  background-image: url(../images/sidesbeverages.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+
+/* pizza Mania */
+.mania-menu-image1 {
+  background-image: url(../images/pizzamania/tomato.png);
+  padding: 0%;
+  margin: 0%;
+}
+.mania-menu-image2 {
+  background-image: url(../images/pizzamania/capsicumveg.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.mania-menu-image3 {
+  background-image: url(../images/pizzamania/goldencorn.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.mania-menu-image4 {
+  background-image: url(../images/pizzamania/vegloaded.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.mania-menu-image5 {
+  background-image: url(../images/pizzamania/paneeronion.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+
+/* sides and desserts */
+.sides-menu-image1 {
+  background-image: url(../images/sidesbeverages/garlicbread.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.sides-menu-image2 {
+  background-image: url(../images/sidesbeverages/stuffedgarlicbreadstick.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.sides-menu-image3 {
+  background-image: url(../images/sidesbeverages/chocolavacake.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.sides-menu-image4 {
+  background-image: url(../images/sidesbeverages/butterscotchmoussecake.jpg);
+  padding: 0%;
+  margin: 0%;
+}
+.sides-menu-image5 {
+  background-image: url(../images/sidesbeverages/browniefantasy.png);
+  padding: 0%;
+  margin: 0%;
 }

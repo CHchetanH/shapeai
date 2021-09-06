@@ -11,7 +11,9 @@
 }
 
 body {
-  background-color: var(--dark-black);
+  background-color: rgba(18, 16, 19, 255);
+  margin: 0;
+  padding: 0;
 }
 /* color Variable */
 :root {
@@ -25,7 +27,7 @@ body {
 .header-container {
   border-bottom: 1px solid whitesmoke;
 }
-.brand-logo {
+.brand-logo a {
   color: var(--orange);
   font-size: 2rem;
   font-family: "Rampart One", cursive;
@@ -57,7 +59,6 @@ body {
   font-size: 2.5rem;
 }
 
-/* hero */
 .hero {
   position: relative;
 }
@@ -69,81 +70,80 @@ body {
   height: 100%;
   width: 100%;
 }
+/* menu cards */
 
-.hero-form-container {
+.menu-container {
   position: absolute;
-  bottom: 25%;
-  max-width: 100%;
-  height: 220px;
-
-  margin: 2rem;
-  border-radius: 6px;
-
-  background: var(--transparent-black);
+  top: 10%;
+  transition-duration: 0.5s;
 }
-
-.hero-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-
-  text-decoration: none;
-  color: var(--white);
+.menu-container:hover {
+  transform: scale(1, 1);
 }
-/* form para*/
-
-.hero-form-para-p {
-  margin: 1rem;
-  font-size: 1rem;
-}
-
-/* form-radio-flex */
-.flex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.form-radio-flex-item {
-  margin: 0.5rem 1rem;
-}
-
-/* form-text */
-.form-text {
-  position: relative;
-  color: black;
-  width: 90%;
-  margin: 1rem;
-}
-.form-input-text {
-  width: 100%;
-  height: 2.5rem;
-}
-.fa-map-marker-alt {
-  position: absolute;
-  left: 5px;
-  top: 5px;
-  bottom: 5px;
-  height: 100%;
-  font-size: 2rem;
-}
-
-input[type="text"]::placeholder {
-  padding-left: 2.5rem;
-  font-size: 1rem;
-}
-/* form-submit button */
-.form-button {
-  background-color: transparent;
+.menu-header {
   color: var(--orange);
-  border: none;
-  font-size: 1.5rem;
+  width: 100%;
+}
+.menu-header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.veg-menu-container {
+  color: var(--orange);
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  border: 2px solid var(--orange);
+  background-color: var(--transparent-black);
+  border-radius: 8px;
+  margin: 1.25rem 0;
   transition-duration: 1s;
 }
-.form-button:hover {
+.veg-menu-container:hover {
+  transform: scale(1.025, 1.025);
+}
+.menu-image-card {
+  height: 350px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.menu-name-card {
+  width: 100%;
+  text-align: center;
+  margin: 0.75rem 0;
+  font-size: 1.125rem;
+  color: var(--white);
+}
+.menu-text-card {
+  width: 100%;
+  text-align: center;
+  margin: 0.75rem 0;
+  color: var(--white);
+}
+.menu-button {
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.menu-button-order {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--orange);
+  transition-duration: 1s;
+}
+.menu-button-order:hover {
   border-bottom: 2px solid var(--orange);
   transform: scale(1.125, 1.125);
+}
+.menu-button-link {
+  color: var(--orange);
 }
 
 /* ################################################ */
@@ -181,6 +181,47 @@ input[type="text"]::placeholder {
   .fa-search {
     font-size: 1.25rem;
   }
+  .menu-header {
+    color: var(--orange);
+    width: 100%;
+  }
+  .menu-header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .veg-menu-container {
+    color: var(--orange);
+    height: 600px;
+    width: 425px;
+    background-color: var(--transparent-black);
+    border-radius: 8px;
+    margin: 1rem 1rem;
+  }
+  .menu-image-card {
+    /* margin: rem; */
+    padding: 1rem;
+  }
+  .menu-name-card {
+    margin: 0.75rem 0;
+    font-size: 1.125rem;
+  }
+  .menu-text-card {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--white);
+  }
+  .menu-button-order {
+    /* margin-bottom: 1rem; */
+    font-size: 1.75rem;
+  }
 }
 
 /* ################################################ */
@@ -203,5 +244,28 @@ input[type="text"]::placeholder {
   }
   .center-nav-button {
     font-size: 1.5rem;
+  }
+  .menu-header {
+    color: var(--orange);
+    width: 100%;
+  }
+  .menu-header h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .veg-menu-container {
+    height: 625px;
+    width: 400px;
+  }
+  .menu-text-card {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--white);
+  }
+  .menu-button-order {
+    font-size: 2rem;
+    margin-bottom: 0;
   }
 }
