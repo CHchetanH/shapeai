@@ -198,7 +198,7 @@ input[type="text"]::placeholder {
   top: 10%;
   bottom: 10%;
   height: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--dark-black);
 }
 .menu-text-card-p {
@@ -208,7 +208,7 @@ input[type="text"]::placeholder {
   bottom: 40%;
   height: 100%;
 
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: var(--dark-black);
   overflow-x: hidden;
 }
